@@ -1,0 +1,3 @@
+@extends('layouts.app')
+@section('roleTitle','Không gian của bạn')
+@section('sidebar')<a href="{{ route('patient.dashboard') }}"><i class="bi bi-house-heart"></i>Tổng quan</a><a href="{{ route('patient.appointments.create') }}"><i class="bi bi-calendar-plus"></i>Đặt lịch khám</a><a href="{{ route('patient.appointments.index') }}"><i class="bi bi-calendar-check"></i>Lịch hẹn của tôi</a><a href="{{ route('patient.history.index') }}"><i class="bi bi-journal-medical"></i>Lịch sử khám</a><a href="{{ route('patient.invoices.index') }}"><i class="bi bi-receipt"></i>Hóa đơn</a><a href="{{ route('profile.edit') }}"><i class="bi bi-person-circle"></i>Hồ sơ cá nhân</a>@endsection

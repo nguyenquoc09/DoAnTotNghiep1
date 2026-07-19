@@ -1,0 +1,1 @@
+document.addEventListener('submit',function(event){var submit=event.target.querySelector('[type="submit"]');if(submit){submit.disabled=true;submit.dataset.originalText=submit.innerHTML;submit.innerHTML='<span class="spinner-border spinner-border-sm"></span> Đang xử lý';}});

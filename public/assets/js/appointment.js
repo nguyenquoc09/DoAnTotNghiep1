@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',function(){var schedule=document.querySelector('[name="doctor_schedule_id"]');var doctor=document.querySelector('[name="doctor_id"]');if(schedule&&doctor){schedule.addEventListener('change',function(){var option=schedule.options[schedule.selectedIndex];if(option.dataset.doctor){doctor.value=option.dataset.doctor;}});}});
